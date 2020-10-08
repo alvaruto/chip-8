@@ -3,10 +3,10 @@
 Very basic CHIP-8 emulator written in C/C++ using Simple DirectMedia Layer as input/graphics library.
 
 ## Usage
-chip8emulator.exe <game.ch8> <delayValue> <scale>
-Where <delayValue> will vary between one computer and another (this is because the CHIP-8 clock is adjusted using a busy loop, will change in the future), 
+> chip8emulator.exe <game.ch8> <delayValue> <scale>
+Where delayValue will vary between one computer and another (this is because the CHIP-8 clock is adjusted using a busy loop, will change in the future), 
 but a natural number between 1 and 10 should be fine.
-<scale> is up to the user, 10 or 20 are good numbers to try at first.
+scale is up to the user, 10 or 20 are good numbers to try at first.
 
 Hex keypad is setup like this:
 
