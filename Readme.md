@@ -1,4 +1,4 @@
-# CHIP-8 Emulator (Interpeter)
+# CHIP-8 Emulator (Interpreter)
 
 Very basic CHIP-8 emulator written in C/C++ using Simple DirectMedia Layer as input/graphics library.
 
