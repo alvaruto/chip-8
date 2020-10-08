@@ -3,7 +3,6 @@
 *  October 2020
 *  ~aml
 */
-#pragma once
 
 #include "engine.h"
 #include <cstdio>
@@ -25,11 +24,13 @@ int main(int argc, char* argv[])
 	if (!myEngine.initGraphics())
 		return 0;
 
+	//Get time on startup to setup delay in the busy loop
 	auto lastCycleTime = std::chrono::high_resolution_clock::now();
 	int cycleDelay = std::stoi(argv[2]);
 
 	while (!myEngine.quit) {
 		auto currentTime = std::chrono::high_resolution_clock::now();
+		//Get differential time between last cycle and now. If enough time has passed, the CPU cycle will execute
 		float t = std::chrono::duration<float, std::chrono::milliseconds::period>(currentTime - lastCycleTime).count();
 		if (t > cycleDelay) {
 			lastCycleTime = currentTime;
