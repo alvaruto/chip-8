@@ -26,7 +26,7 @@ Hex keypad is setup like this:
 I have played some games as well as tested the emulator implementation using ROMs from [The Old Computer](https://www.theoldcomputer.com/roms/index.php?folder=Chip-8/Chip-8/Test-Programs)
 
 ## References
-[Building a CHIP-8 Emulator [C++]](https://austinmorlan.com/posts/chip8_emulator/)
-[How to write an emulator (CHIP-8 interpreter)](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/)
-[Mastering CHIP-8 by Matthew Mikolay](http://mattmik.com/files/chip8/mastering/chip8.html)
-[SDL-CHIP-8](https://github.com/swstegall/SDL-CHIP8)
+*	[Building a CHIP-8 Emulator [C++]](https://austinmorlan.com/posts/chip8_emulator/)
+*	[How to write an emulator (CHIP-8 interpreter)](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/)
+*	[Mastering CHIP-8 by Matthew Mikolay](http://mattmik.com/files/chip8/mastering/chip8.html)
+*	[SDL-CHIP-8](https://github.com/swstegall/SDL-CHIP8)
