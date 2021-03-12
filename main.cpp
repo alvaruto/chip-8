@@ -19,14 +19,14 @@ int main(int argc, char* argv[])
 
 	Engine myEngine;
 	printf("Loading %s\n", argv[1]);
-	myEngine.scale = std::stoi(argv[3]);
+	myEngine.scale = atoi(argv[3]);
 	myEngine.loadGame(argv[1]);
 	if (!myEngine.initGraphics())
 		return 0;
 
 	//Get time on startup to setup delay in the busy loop
 	auto lastCycleTime = std::chrono::high_resolution_clock::now();
-	int cycleDelay = std::stoi(argv[2]);
+	int cycleDelay = atoi(argv[2]);
 
 	while (!myEngine.quit) {
 		auto currentTime = std::chrono::high_resolution_clock::now();
